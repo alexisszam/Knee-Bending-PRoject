@@ -1,3 +1,12 @@
+/*
+  Author: Ricardo Alexis Zamora Acosta
+  Contact Email: zamoraa.alexiss@gmail.com
+  Created at: University of Groningen (RUG)
+  Date: June 2024
+  Description: This code is designed to communicate two Arduinos via Wi-Fi and diploy data in real time.
+  Additional Info: Tested with Arduino Nano ESP32, using Arduino IDE version 2.3.2
+*/
+
 #include <WiFi.h>
 
 const char *ssid = "ESP32-AP";     // Nombre de la red WiFi
